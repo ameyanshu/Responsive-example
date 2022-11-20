@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.item {
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.item:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.navbar input[type=text] {
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+
+.text-area {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("https://th.bing.com/th/id/R.94d34df249f5b94870d4c909913b68f2?rik=M7uUefY0YQnzug&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1559837627-de5ea80a1f43%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax%26ixid%3deyJhcHBfaWQiOjEyMDd9&ehk=HhjUuWHL4kVIVp0WWkyFLw5UrFFdiFX8qMmZr%2fL5U%2f4%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.text {
+    width: 40%;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(245, 243, 243);
+}
+
+#card-title{
+    text-align: center;
+    margin-top: 390px;
+}
+
+.card-area{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.card{
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.card img{
+    height: 150px;
+    width: 100%;
+    margin: auto;
+}
+footer{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(167, 50, 50);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+@media screen and (max-width:650px){
+    footer{
+        background-color:rgb(48, 220, 48);
+    }
+    .text{
+        font-size: 25px;
+        width:70%;
+    }
+    .card-area{
+        height:50%;
+        margin-top: 150px;
+        flex-direction: column;
+        border-radius: 5px;
+        align-content: center;
+    }
+    .card{
+        margin-top: 40px;
+        display: block;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    #card-title{
+        text-align: center;
+        margin-top: 370px;
+    }
+    footer{
+        padding-top: 30px;
+        width: 100%;
+        height: 30%;
+    }
+}
+    
